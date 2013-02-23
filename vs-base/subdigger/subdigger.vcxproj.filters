@@ -15,12 +15,24 @@
     <ClCompile Include="..\..\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\freelist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\eesu.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\..\graph.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\freelist.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

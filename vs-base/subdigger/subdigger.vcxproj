@@ -61,12 +61,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\eesu.cpp" />
+    <ClCompile Include="..\..\freelist.cpp" />
     <ClCompile Include="..\..\graph.cpp" />
     <ClCompile Include="..\..\main.cpp" />
+    <ClCompile Include="..\..\util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\eesu.h" />
+    <ClInclude Include="..\..\freelist.h" />
     <ClInclude Include="..\..\graph.h" />
+    <ClInclude Include="..\..\util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
